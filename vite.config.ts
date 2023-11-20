@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
-import VueMarco from "unplugin-vue-macros/vite";
+import VueMacro from "unplugin-vue-macros/vite";
 import UnoCss from "unocss/vite";
-import options from "./vue-marcos.config";
+import options from "./vue-macros.config";
 
 export default defineConfig({
-  plugins: [VueMarco(options), UnoCss()],
+  plugins: [VueMacro(options), UnoCss()],
 });
